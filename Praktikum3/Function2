@@ -1,0 +1,39 @@
+function printHeart() {
+  console.log("♥");
+}
+
+// Memanggil fungsi untuk mencetak hati
+printHeart();
+
+function multiply(a, b) {
+    return a * b;
+  }
+  
+  // Memanggil fungsi dan mencetak hasilnya
+  console.log(multiply(3, 3)); // Output: 9
+  console.log(multiply(9, 9)); // Output: 81
+  console.log(multiply(5, 4)); // Output: 20
+
+  // Bagian A
+let animal = "Giant Pacific Octopus";
+function observe() {
+  let animal = "Pajama Squid";
+  console.log(animal); // Output: Pajama Squid
+}
+observe();
+
+// Bagian B
+let deadlyAnimal = "Blue-Ringed Octopus";
+function handleAnimal() {
+  let deadlyAnimal = "Scorpionfish";
+  console.log(deadlyAnimal); // Output: Scorpionfish
+}
+handleAnimal();
+console.log(deadlyAnimal); // Output: Blue-Ringed Octopus
+
+const sayHello = (name) => {
+    return "Hello " + name + "!";
+  };
+  
+  console.log(sayHello("Hagrid")); // Output: Hello Hagrid!
+  console.log(sayHello("Luna"));   // Output: Hello Luna!

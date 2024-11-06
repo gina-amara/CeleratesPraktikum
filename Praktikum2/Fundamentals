@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types Demo</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Data Types in JavaScript</h1>
+    <p>This page demonstrates different data types in JavaScript.</p>
+</body>
+</html>
+
+// String
+let message = "Hello, JavaScript!";
+console.log("String:", message);
+alert("String Example: " + message);
+
+// Number
+let number = 42;
+console.log("Number:", number);
+alert("Number Example: " + number);
+
+// Boolean
+let isLearning = true;
+console.log("Boolean:", isLearning);
+alert("Boolean Example: " + isLearning);
+
+// Array
+let fruits = ["Apple", "Banana", "Cherry"];
+console.log("Array:", fruits);
+alert("Array Example: " + fruits.join(", "));
+
+// Object
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+console.log("Object:", car);
+alert("Object Example: " + JSON.stringify(car));
+
+// Null
+let emptyValue = null;
+console.log("Null:", emptyValue);
+alert("Null Example: " + emptyValue);
+
+// Undefined
+let notAssigned;
+console.log("Undefined:", notAssigned);
+alert("Undefined Example: " + notAssigned);
