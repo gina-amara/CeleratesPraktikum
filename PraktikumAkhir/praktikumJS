@@ -1,0 +1,19 @@
+# Inisialisasi antrian
+antrian = ["Ray", "Fiki", "Fadhilla", "Farah"]
+
+# Penambahan pembeli
+antrian.append("Nabila")
+antrian.extend(["Maza", "Elsi"])
+
+# Penghapusan pembeli terakhir
+antrian.pop()
+
+# Pelayanan pembeli
+antrian.pop(0)
+antrian.pop(0)
+
+# Penyerobotan antrian
+antrian.insert(0, "Tomi")
+
+# Hasil akhir
+print("Antrian sekarang:", antrian)
